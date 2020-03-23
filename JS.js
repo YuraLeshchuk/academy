@@ -28,23 +28,23 @@
 // порівння зі ? - скорочення:
 /* let age = prompt('Возраст?', 18);
 
-let message = (age < 3) ? 'Здравствуй, малыш!' :
+let message = (age < 3) ? 'What is your!' :
   (age < 18) ? 'Привет!' :
   (age < 100) ? 'Здравствуйте!' :
   'Какой необычный возраст!';
 
 alert( message );
 
-без ? але з if else:
+без ? але з if else:*/
 if (age < 3) {
-  message = 'Здравствуй, малыш!';
+    message = 'Hello, what is you age?!';
 } else if (age < 18) {
-  message = 'Привет!';
+    message = 'Hello!';
 } else if (age < 100) {
-  message = 'Здравствуйте!';
+    message = 'Hello!';
 } else {
-  message = 'Какой необычный возраст!';
-}*/
+    message = 'Wow!';
+}
 
 /*let userName = prompt("login:", '');
 
@@ -65,8 +65,8 @@ if (userName == 'admin') {
 } else {
     alert('Wrong login'), location.reload();
 }*/
-let i = 0;
+/*let i = 0;
 
 for (; i < 3;) {
     alert(i++);
-}
+}*/
