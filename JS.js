@@ -1,6 +1,6 @@
 //вставляю алерти
-// let message = 'Hello!';
-// alert(message);
+let message = 'Hello Vyacheslav!';
+alert(message);
 
 //присвоїння одній змінній іншої
 //let name = "John";
@@ -36,7 +36,7 @@ let message = (age < 3) ? 'What is your!' :
 alert( message );
 
 без ? але з if else:*/
-if (age < 3) {
+/*if (age < 3) {
     message = 'Hello, what is you age?!';
 } else if (age < 18) {
     message = 'Hello!';
@@ -44,7 +44,7 @@ if (age < 3) {
     message = 'Hello!';
 } else {
     message = 'Wow!';
-}
+}*/
 
 /*let userName = prompt("login:", '');
 
