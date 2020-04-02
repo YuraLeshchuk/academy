@@ -1,6 +1,6 @@
 //вставляю алерти
-let message = 'Hello Vyacheslav!';
-alert(message);
+//let message = 'Hello Vyacheslav!';
+//alert(message);
 
 //присвоїння одній змінній іншої
 //let name = "John";
@@ -12,10 +12,10 @@ alert(message);
 //alert(`Hey, ${admin}!`);
 
 //модалки з питаннями
-//let name = prompt('What is your name?');
-//alert(`Call me: ${name}`);
-//let isBoss = confirm("Ты здесь главный?");
-//alert(isBoss); // true, если нажата OK
+let name = prompt('What is your name?');
+alert(`Call me: ${name}`);
+let isBoss = confirm("Ты здесь главный?");
+alert(isBoss); // true, если нажата OK
 
 //умови
 //let year = prompt('Enter password', '');
